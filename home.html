@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		h1{
+			color: white;
+		}
+		h1:hover{
+			color: red;
+		}
+		.fa:hover{
+
+			margin-bottom:60;
+			font-size: 25px;
+			color: white;
+			padding:30px 34px;
+			background-color:blue;
+			border-radius:35%
+
+		}
+		.fa{
+
+			margin-bottom:60;
+			font-size: 25px;
+			color: black;
+			padding:30px 34px;
+			background-color:white;
+			border-radius:35%;
+
+		}
+		a{
+			text-decoration:none;
+
+		}
+
+		ul {
+		  list-style-type: none;
+		  margin: -9px -9px 0px -9px;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: blue;
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 16px 18px;
+		  text-decoration:none;
+		}
+
+		li a:hover:not(.active) {
+		  background-color: #111;
+		}
+
+		.active {
+		  background-color: #4CAF50;
+		}
+          .opacity{
+          	background-color: gray;
+          	text-align: center;
+          	width:50%;
+        }
+
+
+         #footer {
+        	margin-left: 0px;
+		}
+		#footer h1:hover{
+		}
+		a {
+			/*float: left;*/
+			margin-left: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+        {% include  'navbar.html' %}
+        <h1 style="color:red"><i>Coffee Shop</i></h1>
+		<h1 style="color:black">Our Coffee</h1>
+	    <h2 style="color:black">is a Never Ending Story</h2>
+		
+		<br></br>
+							
+        <h2 style="color: blue"><u>Serving Coffee Everyday</u></h2>
+	    <h3 style="color: orange"><b>New Delhi</b></h3>
+        <h2 style="color: orange">Connaught Place</h2>
+        <h3 style="color: orange">Everyday: 7am - 4pm</h3>
+		
+		<br></br>
+                    
+		<h3 style="color: orange"><b>Mumbai</b></h3>
+        <h2 style="color: orange">Bandra</h2>
+        <h3 style="color: orange">Everyday: 7am - 4pm</h3>
+                   
+		<br></br>
+                   
+        <h2 style="color: blue"><u>Coffee Shop</u></h2>
+		<h2 style="color: pink">One Sip - Forget The Rest</h2>
+
+			<div id ="footer">
+				<h1><a href="https://github.com/Vartika-Kulshreshtha" class="fa fa-facebook"></a></h1>
+				<h1><a href="https://github.com/Vartika-Kulshreshtha" class="fa fa-twitter"></a></h1>
+				<h1><a href="https://github.com/Vartika-Kulshreshtha" class="fa fa-instagram"></a></h1>
+			</div>
+	</center>
+</body>
+</html>
