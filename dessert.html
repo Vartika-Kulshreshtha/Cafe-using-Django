@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+      <div class="menu">
+        <main>
+        {% include  'navbar.html' %}
+    	  <style>
+          img{
+            border-radius:100%;
+          }
+          img:hover{
+            /*border-radius: 0%;*/
+            transform: rotate(40deg);
+          }
+          .fa:hover{
+            margin-bottom:60;
+            font-size: 25px;
+            color: white;
+            padding:30px 34px;
+            background-color:blue;
+            border-radius:35%
+          }
+          .fa{
+            margin-bottom:60;
+            font-size: 25px;
+            color: black;
+            padding:30px 34px;
+            background-color:white;
+            border-radius:35%;
+          }
+          a{
+            text-decoration:none;
+          }
+
+          ul {
+            list-style-type: none;
+            margin: -9px -9px 0px -9px;
+            padding: 0;
+            overflow: hidden;
+            background-color: blue;
+          }
+
+          li {
+            float: left;
+          }
+
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 18px;
+            text-decoration:none;
+          }
+
+          li a:hover:not(.active) {
+            background-color: #111;
+          }
+
+          .active {
+            background-color: #4CAF50;
+          }
+          .opacity{
+            background-color: gray;
+            text-align: center;
+            width:50%;
+          }
+
+          #footer {
+            margin-left: 0px;
+          }
+          #footer h1:hover{
+          }
+          a {
+            /*float: left;*/
+            margin-left: 20px;
+          }
+
+	      </style>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>Coffee Shop</h1>
+          <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Dessert</h2>
+          <style>
+            img{
+                border-radius:100%;
+            }
+            img:hover{
+                /*border-radius: 0%;*/
+                transform: rotate(40deg);
+            }
+            .fa:hover{
+    
+                margin-bottom:60;
+                font-size: 25px;
+                color: white;
+                padding:30px 34px;
+                background-color:blue;
+                border-radius:35%
+    
+            }
+            .fa{
+    
+                margin-bottom:60;
+                font-size: 25px;
+                color: black;
+                padding:30px 34px;
+                background-color:white;
+                border-radius:35%;
+    
+            }
+            a{
+                text-decoration:none;
+    
+            }
+    
+            ul {
+              list-style-type: none;
+              margin: -9px -9px 0px -9px;
+              padding: 0;
+              overflow: hidden;
+              background-color: blue;
+            }
+    
+            li {
+              float: left;
+            }
+    
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 16px 18px;
+              text-decoration:none;
+            }
+    
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+    
+            .active {
+              background-color: #4CAF50;
+            }
+              .opacity{
+                  background-color: gray;
+                  text-align: center;
+                  width:50%;
+            }
+    
+    
+            #footer {
+                margin-left: 0px;
+            }
+            #footer h1:hover{
+            }
+            a {
+                /*float: left;*/
+                margin-left: 20px;
+            }
+            body {
+                background-color: #92a8d1;
+                font-family: sans-serif;
+                padding: 20px;
+            }
+              
+            h1 {
+                font-size: 40px;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+              
+            h2 {
+                font-size: 30px;
+            }
+              
+            .established {
+                font-style: italic;
+            }
+              
+            h1, h2, p {
+                text-align: center;
+            }
+              
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+          </style>
+
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="coffee icon"/>
+          
+          <article class="item">
+            <p class="dessert">Donut   -->   Rs. 149</p><p class="price"></p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie   -->   Rs. 299</p><p class="price"></p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake   -->   Rs. 499</p><p class="price"></p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll   -->   Rs. 249</p><p class="price"></p>
+          </article>
+
+        </section>
+      </main>
+  </body>
+</html>
